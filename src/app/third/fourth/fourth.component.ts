@@ -25,5 +25,13 @@ export class FourthComponent implements OnInit {
       religion:'Islam'
     }
   ]
+  details=[
+    {
+      name:'Arif',
+      age:26,
+      hobby:'gaming',
+      extra:['goodLooking','goodSoul']
+    }
+  ]
 
 }

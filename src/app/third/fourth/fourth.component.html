@@ -1,2 +1,14 @@
 
 <p *ngFor=" let item of userDetails"> Name: {{item.name}} <br> Age:{{item.age}} </p>
+
+
+<div>
+    <ul *ngFor=" let item of details">
+        <li>Name:{{item.name}}</li>
+        <li>Age:{{item.age}}</li>
+        <li>Hobby:{{item.hobby}}</li>
+        <ul *ngFor="let items of item.extra">
+            <li>{{items}}</li>
+        </ul>
+    </ul>
+</div>
