@@ -17,5 +17,13 @@ export class FourthComponent implements OnInit {
   clickMe1(name:string){
     alert(name)
   }
+  users=['Anoy','Arif']
+  userDetails=[
+    {
+      name:'Anoy',
+      age: 25,
+      religion:'Islam'
+    }
+  ]
 
 }
